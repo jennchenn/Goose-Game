@@ -1,0 +1,44 @@
+<html>
+
+<link rel="stylesheet" type "text/css" href "version3.css"/>
+
+<script>
+  function show (toBlock){
+    setDisplay(toBlock, 'block');
+  }
+  function hide (toNone) {
+    setDisplay(toNone, 'none');
+  }
+  function setDisplay (target, str) {
+    document.getElementById(target).style.display = str;
+  }
+</script>
+<head>
+<style>
+    body{
+      background-image:url(http://www.myfreetextures.com/wp-content/uploads/2015/01/lots-of-grass-background.jpg);
+      background-size: 320px 320px;
+      background-repeat: no-repeat;
+  };
+</style>
+
+
+<img src ="https://scontent-yyz1-1.xx.fbcdn.net/v/t34.0-12/17270280_859046807569782_297555778_n.png?oh=be14ee20936534f90cf2af2ffc381d3e&oe=58C73A2B"
+		id="egg" onclick="show('baby'); hide('egg')" alt="click me">
+
+		<img src="https://scontent-yyz1-1.xx.fbcdn.net/v/t34.0-12/17274779_859003084240821_1030028348_n.png?oh=70aba98672c4b194711358b31a53b2fc&oe=58C7B297"
+		id="baby" style="display:none;" onclick="show('grad'); hide('baby')" alt="HEYYYYYY23">
+    baby=Random.Range(20, 30);
+		<img src ="https://scontent-yyz1-1.xx.fbcdn.net/v/t34.0-12/17270316_859046797569783_419942921_n.png?oh=af24aea82e4931c1ea2b89e6e2ac749d&oe=58C85EA2"
+		id="grad" style="display:none;" onclick="show('adult'); hide('grad')" alt="HEYYYYYY35252">
+		<img src ="https://scontent-yyz1-1.xx.fbcdn.net/v/t34.0-12/17274687_859046800903116_1759170423_n.png?oh=e5d574a498a88f54f1d7257644ee7d18&oe=58C865F5"
+		id="adult" style="display:none;" onclick="show('old'); hide('adult')" alt="HEYYYYYY35252">
+		<img src ="https://scontent-yyz1-1.xx.fbcdn.net/v/t34.0-12/17238827_859046814236448_1660820153_n.png?oh=e92286a4e7e8b382dc8f6d86c0056aee&oe=58C76464"
+		id="old" style="display:none;" onclick="show('dead'); hide('old')" alt="HEYYYYYY5466">
+		<img src = "https://scontent-yyz1-1.xx.fbcdn.net/v/t34.0-12/17275003_859046804236449_2037022941_n.png?oh=4dde378c6a19d807f63abfce6c462b66&oe=58C7AE20"
+		id="dead" style="display:none;" onclick="show('nothing'); hide('dead')" alt="HEYYYYYY387976">
+		<div id="nothing" style="display:none;"></div>
+
+
+  </head>
+  </html>

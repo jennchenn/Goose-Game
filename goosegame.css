@@ -1,0 +1,49 @@
+body {
+  position: relative;
+  background-image: url(http://previews.123rf.com/images/ruslan/ruslan0904/ruslan090400049/4655434-bright-green-grass-great-as-a-background-Stock-Photo.jpg);
+}
+#egg {
+   margin: 200px;
+}
+#baby {
+  margin: 300px;
+}
+#grad {
+  margin: 100px;
+}
+#adult {
+  margin: 800x;
+}
+#old {
+  margin: 30px;
+}
+#dead {
+  margin: 500px;
+}
+
+.egg {
+  position: absolute;
+}
+.baby {
+  position: absolute;
+}.grad {
+  position: absolute;
+}.adult {
+  position: absolute;
+}.old {
+  position: absolute;
+}.dead {
+  position: absolute;
+}
+#waiting_time {
+  font-size: 100px;
+  color: black;
+  text-align:center;
+}
+div > img {
+  padding: 0px;
+  top: 0px;
+  position: absolute;
+  float:right;
+  float:top;
+}
